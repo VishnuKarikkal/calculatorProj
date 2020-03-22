@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vishnu K.S.">
+    <meta name="description" content="Simple Calculator">
+
+    <title>Calculator</title>
+    <link rel="icon" href="/img/calculator-app-icon.png" type="image">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+<div class="container">
+    <header>
+        <!-- header navigation start -->
+     
+         <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-primary">
+           
+             
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                 <!-- <li class="nav-item">
+                   <a class="nav-link" href="#">About</a>
+                 </li> -->
+                </ul>
+                <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCra4W1FqffFjK1u5vSIIs_WkPkfz2ZMvzvg_4Kg0q6GPqErV0brztQJm3AysIe8V7mEfzuFRQ&usqp=CAc -->
+                <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIJr6Dz126COJZ3hSZW5juHLeFZDc5-Lka-x1QglivGxBx0MVO -->
+                 
+                <h3 style="display: inline;margin-right: 20px;" class="text-light">Calculator APP</h3>
+                 <img class="img-thumbnail" src="./img/calculator-app-icon.png" alt="" width="50" height="50">
+
+                </nav>
+           <!-- header navigation end -->
+         </header>
+</div>
+
+
+         <div class="container">  
+
+          <div class="row border border-success myPadding myMargin">  <!--main row -->
+
+    <div class="col-md-12">       
+<h4 class="text-success" > Enter Inputs </h4>
+    </div>
+
+<div class="col-md-6 border border-primary myMargin3">      <!--main col -->
+
+<div class="row myMargin">
+                                            <!-- Inputs text area -->
+    <input class="border-primary" type="number" placeholder="  Enter Number">
+    <label style="margin-left: 10px;color: green;" for="number1"> Enter Number 1</label>
+
+</div>
+<div class="row myMargin">
+                                            <!-- Inputs text area -->
+<input class="border-primary" type="number" placeholder="  Enter Number">
+<label style="margin-left: 10px; color: green;" for="number2"> Enter Number 2</label>
+
+</div>
+<div class="row myMargin">
+
+<input class="border-success" type="number" placeholder="  Result">
+<label style="margin-left: 10px; color: red;" for="resul">  Result</label>
+
+</div>
+<div class="row myMargin1">             <!-- Buttons start -->
+
+<button class="col-md-2 bg-info text-center text-light myMargin2">7</button>
+<button class="col-md-2 bg-info text-center text-light myMargin2">8</button>
+<button class="col-md-2 bg-info text-center text-light myMargin2">9</button>
+<button class="col-md-2 bg-warning text-center text-light myMargin2">+</button>
+
+</div>
+<div class="row myMargin1">
+
+    <button class="col-md-2 bg-info text-center text-light myMargin2">4</button>
+    <button class="col-md-2 bg-info text-center text-light myMargin2">5</button>
+    <button class="col-md-2 bg-info text-center text-light myMargin2">6</button>
+    <button class="col-md-2 bg-warning text-center text-light myMargin2">-</button>
+
+</div>
+<div class="row myMargin1">
+
+    <button class="col-md-2 bg-info text-center text-light myMargin2">1</button>
+    <button class="col-md-2 bg-info text-center text-light myMargin2">2</button>
+    <button class="col-md-2 bg-info text-center text-light myMargin2">3</button>
+    <button class="col-md-2 bg-warning text-center text-light myMargin2">*</button>
+
+</div>
+<div class="row myMargin1">
+
+
+    <button class="col-md-2 bg-danger text-center text-light myMargin2">CLR</button>
+    <button class="col-md-2 bg-info text-center text-light myMargin2">0</button>
+    <button class="col-md-2 bg-success text-center text-light myMargin2">=</button>
+    <button class="col-md-2 bg-warning text-center text-light myMargin2">%</button>
+
+</div>
+            <!-- Buttons end -->
+
+
+ </div>     <!-- end of main col -->
+ </div>     <!-- end of main row -->
+
+
+                <!-- Showcase Images
+ <div class="left-backG">
+     <img src="./img/mathSymbolsBack.jpeg" alt="" width="300" height="300">
+ </div>
+
+ <div class="right-backG">
+     <img src="./img/mathSymbolsBack.jpeg" alt="" width="300" height="300">
+ </div> -->
+
+
+
+ <Footer>
+     
+<h5>Calculator App 2020 &copy</h5>
+
+</Footer>
+ </div>     <!-- end of container -->
+
+</body>
+</html>

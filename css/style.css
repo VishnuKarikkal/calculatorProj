@@ -1,0 +1,59 @@
+.myMargin
+{
+    margin: 5px 5px 5px 5px;
+}
+
+.myMargin1
+{
+    margin-top: 5px;  
+    margin-bottom: 5px;  
+    margin-left: 60px;
+    
+}
+.myMargin2
+{
+margin: 3px;
+border-radius: 25px;
+}
+
+.myPadding
+{
+    padding: 25px 200px 25px 200px;
+}
+h4
+{
+    text-align: center;
+}
+.myMargin3
+{
+    margin-top: 6px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.left-backG
+{
+    margin-left: 45px;
+    margin-top: -320px;
+}
+
+.right-backG
+{
+    margin-left: 800px;
+    margin-top: -295px;
+}
+
+footer
+{
+
+text-align: center;
+padding:10px;
+margin-top: 15px;
+background:rgb(6, 184, 154);
+}
+
+footer h5
+{
+    font-size: 18px;
+    color: ghostwhite;
+}
